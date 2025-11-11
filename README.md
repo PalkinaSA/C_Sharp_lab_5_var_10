@@ -216,7 +216,7 @@
 
 <img width="690" height="522" alt="Выполнение запроса 4" src="https://github.com/user-attachments/assets/4dff6d2c-de66-416c-b1d7-ae0d7c9c9184" />
 
-Тест 21. ВВод некорректного значения для опции.
+Тест 21. Ввод некорректного значения для опции.
 
 <img width="687" height="317" alt="Некорректно введено действие" src="https://github.com/user-attachments/assets/b29e4994-bfb2-47ac-8501-3afb8f6af07c" />
 

@@ -50,6 +50,7 @@
 Обработка ошибок происходит с помощью try-catch и TryParse, а также проверок на пустые значения. В случае неверных данных пользователь получает сообщение об этом и действие фиксируется в файле логирования.
 # Тестирование
 Вход в программу осуществляется с выбора типа логирования. Есть выбор создать/перезаписать файл логирования или дописывать в уже существующий.
+
 Тест 1. Создание или перезапись файла логирования.
 
 <img width="365" height="169" alt="Создание или перезапись файла логирования" src="https://github.com/user-attachments/assets/c6ca746b-1be0-4e9e-8491-96dcaa125f7f" />
@@ -61,3 +62,108 @@
 Тест 3. Для окончания работы программы вместо номера опции пользователем вводится 0.
 
 <img width="689" height="324" alt="Выход из программы" src="https://github.com/user-attachments/assets/c62d9185-6bdd-4e3c-bcbe-e060a1fbb131" />
+
+Тест 4. Чтение базы данных из excel-файла, когда он присутствует.
+
+<img width="679" height="350" alt="Успешное чтение базы данных из файла" src="https://github.com/user-attachments/assets/fca80c2d-5708-4b21-b64c-6c257d51c35d" />
+
+Тест 5. Чтение базы данных из excel-файла, когда он отсутствует.
+
+<img width="679" height="345" alt="Неуспешное чтение базы данных из файла (файл отсутсвует)" src="https://github.com/user-attachments/assets/5160d1f3-8f2e-41a3-afe7-f0b9a79b3029" />
+
+Тест 6. Просмотр базы данных, когда чтение ещё не произведено.
+
+<img width="688" height="483" alt="Просмотр пустой таблицы Товар" src="https://github.com/user-attachments/assets/d0b6a5eb-11d1-4d4c-85f5-f345aa540370" />
+<img width="679" height="479" alt="Просмотр пустой таблицы Магазин" src="https://github.com/user-attachments/assets/3b6e34f0-d913-42c7-8452-1988eddb9fb5" />
+<img width="694" height="482" alt="Просмотр пустой таблицы Движение товаров" src="https://github.com/user-attachments/assets/d98cef7e-4182-481e-8897-374cb7fcea14" />
+
+Тест 7. Просмотр базы данных, когда чтение было произведено.
+
+<img width="1261" height="850" alt="Просмотр таблицы Товар" src="https://github.com/user-attachments/assets/ff897933-a096-4391-b4cb-2088ae5b5420" />
+<img width="727" height="926" alt="Просмотр таблицы Магазин" src="https://github.com/user-attachments/assets/7b51050e-bfa7-41ce-a520-7a2bcf9ab730" />
+<img width="885" height="718" alt="Просмотр таблицы Движение товаров" src="https://github.com/user-attachments/assets/8f8c849a-7368-412c-80c5-1a4c8919bfc4" />
+
+Тест 8. Успешное удаление элементов (ключ найден).
+
+<img width="683" height="501" alt="Успешное удаление товара (фото 1)" src="https://github.com/user-attachments/assets/b0091ce1-9d7a-4bf1-9985-6dfccfefcd0f" />
+<img width="1243" height="203" alt="Успешное удаление товара (фото 2)" src="https://github.com/user-attachments/assets/f1ce30bd-7583-48bd-bc1d-bc7ae33ac98d" />
+
+<img width="690" height="503" alt="Успешное удаление магазина (фото 1)" src="https://github.com/user-attachments/assets/e4163490-36c5-4ab0-b339-7428d7298fe4" />
+<img width="501" height="221" alt="Успешное удаление магазина (фото 2)" src="https://github.com/user-attachments/assets/9758dae4-3308-4c4d-9604-ea0598727e09" />
+
+<img width="693" height="507" alt="Успешное удаление движения товаров (фото 1)" src="https://github.com/user-attachments/assets/3fb58147-f62e-47a6-a286-131594ef20bb" />
+<img width="879" height="175" alt="Успешное удаление движения товаров (фото 2)" src="https://github.com/user-attachments/assets/1475f1e2-db01-410b-9501-c12d74cc200c" />
+
+Тест 9. Неуспешное удаление элементов (ключ не был найден).
+
+<img width="680" height="500" alt="Неуспешное удаление товара" src="https://github.com/user-attachments/assets/7ccaf2f9-7c01-45fc-80a9-0c88e02cea67" />
+<img width="686" height="510" alt="Неуспешное удаление магазина" src="https://github.com/user-attachments/assets/102d783c-114d-4c78-be22-ca80e88d04bb" />
+<img width="683" height="498" alt="Неуспешное удаление движения товаров" src="https://github.com/user-attachments/assets/e3cc0d81-e138-47ea-a743-d5666e4386f5" />
+
+Тест 10. Успешная корректировка элементов (по ключу).
+
+<img width="1244" height="769" alt="Успешная корректировка товара (фото 1)" src="https://github.com/user-attachments/assets/1ebb4631-617c-4ec5-b9ef-3f0704447a68" />
+<img width="1252" height="148" alt="Успешная корректировка товара (фото 2)" src="https://github.com/user-attachments/assets/5c7fcc84-fbfc-415e-9f90-f2d29adedb38" />
+
+<img width="698" height="715" alt="Успешная корректировка магазина (фото 1)" src="https://github.com/user-attachments/assets/5e187cef-e82b-4f7e-acba-5c78b5864166" />
+<img width="501" height="213" alt="Успешная корректировка магазина (фото 2)" src="https://github.com/user-attachments/assets/39fea774-3504-431b-b473-2c5ccebdd535" />
+
+<img width="882" height="818" alt="Успешная корректировка движения товаров (фото 1)" src="https://github.com/user-attachments/assets/1a1b6e9a-52ff-4c10-acbe-72a1e7e59228" />
+<img width="877" height="125" alt="Успешная корректировка движения товаров (фото 2)" src="https://github.com/user-attachments/assets/c97c3698-329b-4370-918f-7fb72686c2ee" />
+
+Тест 11. Неуспешная корректировка элементов (ключ не был найден).
+
+<img width="680" height="502" alt="Неуспешная корректировка товара" src="https://github.com/user-attachments/assets/7d934e75-87dd-4130-a96e-ae5a3a9aa027" />
+<img width="692" height="503" alt="Неуспешная корректировка магазина" src="https://github.com/user-attachments/assets/06ff7700-3e4a-4a22-912e-44db79e7a892" />
+<img width="868" height="682" alt="Неуспешная корректировка движения товаров" src="https://github.com/user-attachments/assets/e32ba870-e333-479d-babf-4fc49864a2f4" />
+
+Тест 12. Добавление элементов (появляются в конце списка).
+
+<img width="693" height="604" alt="Успешное добавление товара (фото 1)" src="https://github.com/user-attachments/assets/29ecab45-fb43-4396-b167-83b3b62665aa" />
+<img width="1261" height="172" alt="Успешное добавление товара (фото 2)" src="https://github.com/user-attachments/assets/4293825d-7f90-4b75-858d-ba68b9016aa3" />
+
+<img width="688" height="554" alt="Успешное добавление магазина (фото 1)" src="https://github.com/user-attachments/assets/ef0ad9ed-262d-4f53-af3f-adf34caa8e65" />
+<img width="483" height="303" alt="Успешное добавление магазина (фото 2)" src="https://github.com/user-attachments/assets/dcd816cf-5be1-4b37-a56c-5fbfcb949a1e" />
+
+<img width="747" height="602" alt="Успешное добавление движения товаров (фото 1)" src="https://github.com/user-attachments/assets/b1d1d338-e22c-4112-9c9a-7d1a0a958516" />
+<img width="889" height="307" alt="Успешное добавление движения товаров (фото 2)" src="https://github.com/user-attachments/assets/8ab44081-4187-4dfe-bcc6-2efaacb433e4" />
+
+Тест 13. Нахождение максимальной цены упаковки чреди всех продуктов на пустом списке.
+
+<img width="706" height="506" alt="Выполнение запроса 1 на пустой бд" src="https://github.com/user-attachments/assets/79bdd624-96dc-404a-8452-ab6fd060a5aa" />
+
+Тест 14. Нахождение максимальной цены упаковки чреди всех продуктов.
+
+<img width="700" height="503" alt="Выполнение запроса 1" src="https://github.com/user-attachments/assets/da32fd49-a37c-4de4-88e3-dd4f7259fdf4" />
+
+Тест 15. Нахождение списка операций с товарами определённого отдела на пустом списке.
+
+<img width="696" height="546" alt="Выполнение запроса 2 на пустой бд" src="https://github.com/user-attachments/assets/2bb9f60d-eec4-43cc-952b-0e13f71ccf8c" />
+
+Тест 16. Нахождение списка операций с товарами определённого отдела.
+
+<img width="731" height="711" alt="Выполнение запроса 2" src="https://github.com/user-attachments/assets/e8d9f5bd-e252-4ec3-9024-5582a2bed569" />
+
+Тест 17. Нахождение списка адресов магазинов, в которых продавался определённый товар на пустом списке.
+
+<img width="678" height="542" alt="Выполнение запроса 3 на пустой бд" src="https://github.com/user-attachments/assets/021c5102-3bd9-4bbe-a7e4-5a592ea16b1e" />
+
+Тест 18. Нахождение списка адресов магазинов, в которых продавался определённый товар.
+
+<img width="703" height="890" alt="Выполнение запроса 3" src="https://github.com/user-attachments/assets/92f9af25-f2d5-4649-baf7-5d0c44d8d22c" />
+
+Тест 19. Нахождение общей суммы продаж в определённом районе на пустом списке.
+
+<img width="690" height="520" alt="Выполнение запроса 4 на пустой бд" src="https://github.com/user-attachments/assets/46987c4c-800d-4257-8b01-3ed6ba4459a4" />
+
+Тест 20. Нахождение общей суммы продаж в определённом районе.
+
+<img width="690" height="522" alt="Выполнение запроса 4" src="https://github.com/user-attachments/assets/4dff6d2c-de66-416c-b1d7-ae0d7c9c9184" />
+
+Тест 21. ВВод некорректного значения для опции.
+
+<img width="687" height="317" alt="Некорректно введено действие" src="https://github.com/user-attachments/assets/b29e4994-bfb2-47ac-8501-3afb8f6af07c" />
+
+Тест 22. Наполнение файла логирования.
+
+<img width="1891" height="983" alt="Файл логирования" src="https://github.com/user-attachments/assets/f5d2c8a8-adaa-4caa-aa53-a9c733655f98" />

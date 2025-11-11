@@ -109,6 +109,7 @@
 Тест 8. Успешное удаление элементов (ключ найден).
 
 Тест 8.1. Таблица 'Товар':
+
 <img width="683" height="501" alt="Успешное удаление товара (фото 1)" src="https://github.com/user-attachments/assets/b0091ce1-9d7a-4bf1-9985-6dfccfefcd0f" />
 <img width="1243" height="203" alt="Успешное удаление товара (фото 2)" src="https://github.com/user-attachments/assets/f1ce30bd-7583-48bd-bc1d-bc7ae33ac98d" />
 

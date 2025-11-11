@@ -94,51 +94,91 @@
 
 Тест 7. Просмотр базы данных, когда чтение было произведено.
 
+Тест 7.1. Таблица 'Товар':
+
 <img width="1261" height="850" alt="Просмотр таблицы Товар" src="https://github.com/user-attachments/assets/ff897933-a096-4391-b4cb-2088ae5b5420" />
+
+Тест 7.2. Таблица 'Магазин':
+
 <img width="727" height="926" alt="Просмотр таблицы Магазин" src="https://github.com/user-attachments/assets/7b51050e-bfa7-41ce-a520-7a2bcf9ab730" />
+
+Тест 7.3. Таблица 'Движение товаров':
+
 <img width="885" height="718" alt="Просмотр таблицы Движение товаров" src="https://github.com/user-attachments/assets/8f8c849a-7368-412c-80c5-1a4c8919bfc4" />
 
 Тест 8. Успешное удаление элементов (ключ найден).
 
+Тест 8.1. Таблица 'Товар':
 <img width="683" height="501" alt="Успешное удаление товара (фото 1)" src="https://github.com/user-attachments/assets/b0091ce1-9d7a-4bf1-9985-6dfccfefcd0f" />
 <img width="1243" height="203" alt="Успешное удаление товара (фото 2)" src="https://github.com/user-attachments/assets/f1ce30bd-7583-48bd-bc1d-bc7ae33ac98d" />
 
+Тест 8.2. Таблица 'Магазин':
+
 <img width="690" height="503" alt="Успешное удаление магазина (фото 1)" src="https://github.com/user-attachments/assets/e4163490-36c5-4ab0-b339-7428d7298fe4" />
 <img width="501" height="221" alt="Успешное удаление магазина (фото 2)" src="https://github.com/user-attachments/assets/9758dae4-3308-4c4d-9604-ea0598727e09" />
+
+Тест 8.3. Таблица 'Движение товаров':
 
 <img width="693" height="507" alt="Успешное удаление движения товаров (фото 1)" src="https://github.com/user-attachments/assets/3fb58147-f62e-47a6-a286-131594ef20bb" />
 <img width="879" height="175" alt="Успешное удаление движения товаров (фото 2)" src="https://github.com/user-attachments/assets/1475f1e2-db01-410b-9501-c12d74cc200c" />
 
 Тест 9. Неуспешное удаление элементов (ключ не был найден).
 
+Тест 9.1. Таблица 'Товар':
+
 <img width="680" height="500" alt="Неуспешное удаление товара" src="https://github.com/user-attachments/assets/7ccaf2f9-7c01-45fc-80a9-0c88e02cea67" />
+
+Тест 9.2. Таблица 'Магазин':
+
 <img width="686" height="510" alt="Неуспешное удаление магазина" src="https://github.com/user-attachments/assets/102d783c-114d-4c78-be22-ca80e88d04bb" />
+
+Тест 9.3. Таблица 'Движение товаров':
+
 <img width="683" height="498" alt="Неуспешное удаление движения товаров" src="https://github.com/user-attachments/assets/e3cc0d81-e138-47ea-a743-d5666e4386f5" />
 
 Тест 10. Успешная корректировка элементов (по ключу).
 
+Тест 10.1. Таблица 'Товар':
+
 <img width="1244" height="769" alt="Успешная корректировка товара (фото 1)" src="https://github.com/user-attachments/assets/1ebb4631-617c-4ec5-b9ef-3f0704447a68" />
 <img width="1252" height="148" alt="Успешная корректировка товара (фото 2)" src="https://github.com/user-attachments/assets/5c7fcc84-fbfc-415e-9f90-f2d29adedb38" />
 
+Тест 10.2. Таблица 'Магазин':
+
 <img width="698" height="715" alt="Успешная корректировка магазина (фото 1)" src="https://github.com/user-attachments/assets/5e187cef-e82b-4f7e-acba-5c78b5864166" />
 <img width="501" height="213" alt="Успешная корректировка магазина (фото 2)" src="https://github.com/user-attachments/assets/39fea774-3504-431b-b473-2c5ccebdd535" />
+
+Тест 10.3. Таблица 'Движение товаров':
 
 <img width="882" height="818" alt="Успешная корректировка движения товаров (фото 1)" src="https://github.com/user-attachments/assets/1a1b6e9a-52ff-4c10-acbe-72a1e7e59228" />
 <img width="877" height="125" alt="Успешная корректировка движения товаров (фото 2)" src="https://github.com/user-attachments/assets/c97c3698-329b-4370-918f-7fb72686c2ee" />
 
 Тест 11. Неуспешная корректировка элементов (ключ не был найден).
 
+Тест 11.1. Таблица 'Товар':
+
 <img width="680" height="502" alt="Неуспешная корректировка товара" src="https://github.com/user-attachments/assets/7d934e75-87dd-4130-a96e-ae5a3a9aa027" />
+
+Тест 11.2. Таблица 'Магазин':
+
 <img width="692" height="503" alt="Неуспешная корректировка магазина" src="https://github.com/user-attachments/assets/06ff7700-3e4a-4a22-912e-44db79e7a892" />
+
+Тест 11.3. Таблица 'Движение товаров':
+
 <img width="868" height="682" alt="Неуспешная корректировка движения товаров" src="https://github.com/user-attachments/assets/e32ba870-e333-479d-babf-4fc49864a2f4" />
 
 Тест 12. Добавление элементов (появляются в конце списка).
+Тест 12.1. Таблица 'Товар':
 
 <img width="693" height="604" alt="Успешное добавление товара (фото 1)" src="https://github.com/user-attachments/assets/29ecab45-fb43-4396-b167-83b3b62665aa" />
 <img width="1261" height="172" alt="Успешное добавление товара (фото 2)" src="https://github.com/user-attachments/assets/4293825d-7f90-4b75-858d-ba68b9016aa3" />
 
+Тест 12.2. Таблица 'Магазин':
+
 <img width="688" height="554" alt="Успешное добавление магазина (фото 1)" src="https://github.com/user-attachments/assets/ef0ad9ed-262d-4f53-af3f-adf34caa8e65" />
 <img width="483" height="303" alt="Успешное добавление магазина (фото 2)" src="https://github.com/user-attachments/assets/dcd816cf-5be1-4b37-a56c-5fbfcb949a1e" />
+
+Тест 12.3. Таблица 'Движение товаров':
 
 <img width="747" height="602" alt="Успешное добавление движения товаров (фото 1)" src="https://github.com/user-attachments/assets/b1d1d338-e22c-4112-9c9a-7d1a0a958516" />
 <img width="889" height="307" alt="Успешное добавление движения товаров (фото 2)" src="https://github.com/user-attachments/assets/8ab44081-4187-4dfe-bcc6-2efaacb433e4" />
